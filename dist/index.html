@@ -1,68 +1,22 @@
-<head><script defer src="main.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'html-loader  ' in 'D:\codes\js\resturant-page'
-  ModuleNotFoundError: Module not found: Error: Can't   resolve 'html-loader' in 'D:\codes\js\resturant-pa  ge'
-      at D:\codes\js\resturant-page\node_modules\webp  ack\lib\Compilation.js:2109:28
-      at D:\codes\js\resturant-page\node_modules\webp  ack\lib\NormalModuleFactory.js:908:13
-      at eval (eval at create (D:\codes\js\resturant-  page\node_modules\tapable\lib\HookCodeFactory.js:33  :10), <anonymous>:10:1)
-      at D:\codes\js\resturant-page\node_modules\webp  ack\lib\NormalModuleFactory.js:333:22
-      at eval (eval at create (D:\codes\js\resturant-  page\node_modules\tapable\lib\HookCodeFactory.js:33  :10), <anonymous>:9:1)
-      at D:\codes\js\resturant-page\node_modules\webp  ack\lib\NormalModuleFactory.js:638:15
-      at D:\codes\js\resturant-page\node_modules\webp  ack\lib\NormalModuleFactory.js:150:10
-      at D:\codes\js\resturant-page\node_modules\webp  ack\lib\NormalModuleFactory.js:714:8
-      at D:\codes\js\resturant-page\node_modules\neo-  async\async.js:2830:7
-      at done (D:\codes\js\resturant-page\node_module  s\neo-async\async.js:2925:13)
-  
-  - Compilation.js:2109 
-    [resturant-page]/[webpack]/lib/Compilation.js:210    9:28
-  
-  - NormalModuleFactory.js:908 
-    [resturant-page]/[webpack]/lib/NormalModuleFactor    y.js:908:13
-  
-  
-  - NormalModuleFactory.js:333 
-    [resturant-page]/[webpack]/lib/NormalModuleFactor    y.js:333:22
-  
-  
-  - NormalModuleFactory.js:638 
-    [resturant-page]/[webpack]/lib/NormalModuleFactor    y.js:638:15
-  
-  - NormalModuleFactory.js:150 
-    [resturant-page]/[webpack]/lib/NormalModuleFactor    y.js:150:10
-  
-  - NormalModuleFactory.js:714 
-    [resturant-page]/[webpack]/lib/NormalModuleFactor    y.js:714:8
-  
-  - async.js:2830 
-    [resturant-page]/[neo-async]/async.js:2830:7
-  
-  - async.js:2925 done
-    [resturant-page]/[neo-async]/async.js:2925:13
-  
-  - child-compiler.js:174 
-    [resturant-page]/[html-webpack-plugin]/lib/child-    compiler.js:174:18
-  
-  - Compiler.js:627 finalCallback
-    [resturant-page]/[webpack]/lib/Compiler.js:627:5
-  
-  - Compiler.js:662 
-    [resturant-page]/[webpack]/lib/Compiler.js:662:11  
-  - Compiler.js:1348 
-    [resturant-page]/[webpack]/lib/Compiler.js:1348:1    7
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsyn    c]
-    [resturant-page]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1344 
-    [resturant-page]/[webpack]/lib/Compiler.js:1344:3    3
-  
-  - Compilation.js:2925 finalCallback
-    [resturant-page]/[webpack]/lib/Compilation.js:292    5:11
-  
-  - Compilation.js:3238 
-    [resturant-page]/[webpack]/lib/Compilation.js:323    8:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resturant</title>
+<script defer src="main.js"></script></head>
+<body>
+    <header>
+        <nav>
+            <button id="home" class="btn btn-outline-dark" >Home</button>
+            <button id="menu" class="btn btn-outline-dark" >Menu</button>
+            <button id="about" class="btn btn-outline-dark" >About</button>
+
+        </nav>
+    </header>
+
+    <div id="content">
+        </div>
+
+</body>
+</html>
